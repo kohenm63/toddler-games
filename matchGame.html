@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <title>Match Game</title>
+</head>
+<style>
+   
+
+   * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFCE00;
+	font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+.app {
+	display: flex;
+	flex-flow: column;
+	width: 200vw;
+	height: 200vh;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+}
+
+.animals{
+	display: flex;
+	flex: 1;
+	width: 100%;
+	overflow-x: scroll;
+  
+}
+
+.animals .animal {
+	display: flex;
+	flex-flow: column;
+	flex: 1;
+
+	width: 100%;
+	min-width: 250px;
+	max-width: 350px;
+	height: 100%;
+	min-height: 200px;
+
+	background-color: rgba(97, 86, 86, 0.1);
+	margin: 0 15px;
+	padding: 8px;
+	transition: all 0.2s linear;
+}
+
+.animals .animal .animal-item {
+	background-color: #F3F3F3;
+font-size: 80px;
+	border-radius: 8px;
+	
+	text-align: center;
+	margin: 4px 0px;
+}
+h1{
+  color: #F3F3F3;
+  
+}
+</style>
+<body>
+
+  <section class="animals">
+    <section class="animal">
+      
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/cat.png" alt="">
+      </div>
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/cow.png" alt="">
+      </div>
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/elephant.png" alt="">
+      </div>
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/elk.png" alt="">
+      </div>
+
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/fish.png" alt="">
+      </div>
+
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/fox.jpeg" alt="">
+      </div>
+
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/iraffe.png" alt="">
+      </div>
+
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/lion.png" alt="">
+      </div>
+
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/monkey.png" alt="">
+      </div>
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/rabbit.jpeg" alt="">
+      </div>
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/ship.jpeg" alt="">
+      </div>
+      <div class="animal-item" draggable="true">
+        <img src="./images/match/wale.png" alt="">
+      </div>
+
+    </section>
+
+
+    <div class="animal"><h1>Domestic</h1></div>
+    <div class="animal"><h1>Jungle</h1></div>
+    <div class="animal"><h1>Sea</h1></div>
+ 
+
+      <script src = "match.js"> </script>
+
+</body>
+</html>
