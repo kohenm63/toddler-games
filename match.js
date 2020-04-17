@@ -1,4 +1,4 @@
-//############################# match game ####################################
+
 const animal_items = document.querySelectorAll('.animal-item');
 const animals = document.querySelectorAll('.animal');
 
